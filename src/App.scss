@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-all{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  .header-container {
+    
+    width: 100%;
+    background-color: rgb(31, 121, 211);
+    color: #fff;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+  
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0 !important;
+      width: 500px;
+      padding-left: 5%;
+    
+  
+      button {
+        border: none;
+        background-color: rgb(31, 121, 211);
+        color: #fff;
+      }
+  
+      .input {
+        width: 70%;
+        margin: auto 15px;
+        background-color: rgb(109, 155, 224);
+        color: #fff;
+        outline: none;
+      }
+    }
+  }
+   
+  .render-table{
+    text-align: center;
+    button{
+      padding: 3px 10px;
+      margin: auto 10px;
+    }
+    .edit-button{
+      background-color: rgb(43, 119, 233);
+      border: none;
+    }
+    .del-button{
+      background-color: rgb(219, 70, 70);
+      border: none;
+    }
+  }
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
